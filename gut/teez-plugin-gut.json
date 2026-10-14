@@ -1,0 +1,9 @@
+{
+  "name": "gut",
+  "plugin": "teez-plugin-gut.lua",
+  "anchors": ["project.godot"],
+  "include": ["**/test/**", "**/*_test.gd"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["godot"],
+  "priority": 115
+}

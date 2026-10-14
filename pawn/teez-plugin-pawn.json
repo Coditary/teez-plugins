@@ -1,0 +1,8 @@
+{
+  "name": "pawn",
+  "plugin": "teez-plugin-pawn.lua",
+  "glob_anchors": ["pawn.json", "pawno.cfg"],
+  "include": ["**/tests/**/*.pwn", "**/*_test.pwn"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

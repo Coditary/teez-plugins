@@ -1,0 +1,8 @@
+{
+  "name": "julia",
+  "plugin": "teez-plugin-julia.lua",
+  "anchors": ["Project.toml"],
+  "include": ["**/test/**", "**/test_*.jl"],
+  "requires": ["julia"],
+  "priority": 115
+}

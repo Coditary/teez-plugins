@@ -1,0 +1,23 @@
+{
+  "name": "zig",
+  "plugin": "teez-plugin-zig.lua",
+  "anchors": [
+    "build.zig"
+  ],
+  "glob_anchors": [
+    "build.zig.zon"
+  ],
+  "include": [
+    "**/*.zig"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 115,
+  "requires": [
+    "zig"
+  ]
+}

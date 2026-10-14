@@ -1,0 +1,7 @@
+{
+  "name": "flexunit",
+  "plugin": "teez-plugin-flexunit.lua",
+  "anchors": ["build.xml", "pom.xml"],
+  "include": ["**/*Test.as", "**/tests/**"],
+  "priority": 115
+}

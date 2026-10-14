@@ -1,0 +1,10 @@
+{
+  "name": "servicenow",
+  "plugin": "teez-plugin-servicenow.lua",
+  "anchors": ["snow.properties"],
+  "glob_anchors": ["src/**"],
+  "include": ["**/atf/**", "**/*_test.xml"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["snc"],
+  "priority": 115
+}

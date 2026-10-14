@@ -1,0 +1,8 @@
+{
+  "name": "ada",
+  "plugin": "teez-plugin-ada.lua",
+  "glob_anchors": ["*.gpr"],
+  "include": ["**/*-tests.adb", "**/tests/**"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

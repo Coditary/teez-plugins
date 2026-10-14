@@ -1,0 +1,8 @@
+{
+  "name": "prolog",
+  "plugin": "teez-plugin-prolog.lua",
+  "requires": ["swipl"],
+  "glob_anchors": ["*.pl"],
+  "include": ["**/test/**", "**/*_test.pl", "**/tests/**"],
+  "priority": 115
+}

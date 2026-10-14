@@ -1,0 +1,9 @@
+{
+  "name": "matlab",
+  "plugin": "teez-plugin-matlab.lua",
+  "requires": ["matlab"],
+  "anchors": ["+tests", "project.prj"],
+  "glob_anchors": ["**/*Test.m", "**/tests/**"],
+  "include": ["**/*Test.m", "**/tests/**/*.m"],
+  "priority": 115
+}

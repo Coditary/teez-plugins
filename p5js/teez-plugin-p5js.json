@@ -1,0 +1,10 @@
+{
+  "name": "p5js",
+  "plugin": "teez-plugin-p5js.lua",
+  "anchors": ["package.json"],
+  "glob_anchors": ["**/sketch.js", "index.html"],
+  "include": ["**/*.test.js", "**/test/**"],
+  "exclude": ["**/node_modules/**", "**/*.teez.lua"],
+  "requires": ["npx"],
+  "priority": 115
+}

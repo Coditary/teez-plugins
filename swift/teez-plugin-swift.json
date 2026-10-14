@@ -1,0 +1,8 @@
+{
+  "name": "swift",
+  "plugin": "teez-plugin-swift.lua",
+  "anchors": ["Package.swift"],
+  "include": ["**/Tests/**"],
+  "requires": ["swift"],
+  "priority": 115
+}

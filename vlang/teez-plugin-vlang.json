@@ -1,0 +1,8 @@
+{
+  "name": "vlang",
+  "plugin": "teez-plugin-vlang.lua",
+  "anchors": ["v.mod"],
+  "include": ["**/*_test.v", "**/tests/**"],
+  "requires": ["v"],
+  "priority": 115
+}

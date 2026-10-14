@@ -1,0 +1,8 @@
+{
+  "name": "rust",
+  "plugin": "teez-plugin-rust.lua",
+  "anchors": ["Cargo.toml"],
+  "include": ["**/tests/**/*.rs", "**/src/**/*_test.rs", "**/src/**/test_*.rs"],
+  "requires": ["cargo"],
+  "priority": 115
+}

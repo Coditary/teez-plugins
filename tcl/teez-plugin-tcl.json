@@ -1,0 +1,9 @@
+{
+  "name": "tcl",
+  "plugin": "teez-plugin-tcl.lua",
+  "anchors": ["pkgIndex.tcl"],
+  "glob_anchors": ["*.tcl"],
+  "include": ["**/tests/**", "**/*_test.tcl", "**/all.tcl"],
+  "requires": ["tclsh"],
+  "priority": 115
+}

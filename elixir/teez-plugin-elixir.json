@@ -1,0 +1,9 @@
+{
+  "name": "elixir",
+  "plugin": "teez-plugin-elixir.lua",
+  "requires": ["mix"],
+  "anchors": ["mix.exs"],
+  "glob_anchors": ["mix.exs"],
+  "include": ["**/test/**/*_test.exs"],
+  "priority": 115
+}

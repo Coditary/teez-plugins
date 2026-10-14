@@ -1,0 +1,10 @@
+{
+  "name": "pester",
+  "plugin": "teez-plugin-pester.lua",
+  "anchors": [],
+  "glob_anchors": ["*.psd1", "PesterConfiguration.ps1"],
+  "include": ["**/*.Tests.ps1", "**/Tests/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["pwsh"],
+  "priority": 115
+}

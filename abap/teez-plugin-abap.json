@@ -1,0 +1,9 @@
+{
+  "name": "abap",
+  "plugin": "teez-plugin-abap.lua",
+  "anchors": [],
+  "glob_anchors": [".abapgit.xml"],
+  "include": ["**/*.abap", "**/z*test*.abap"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

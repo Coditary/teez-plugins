@@ -1,0 +1,9 @@
+{
+  "name": "perl",
+  "plugin": "teez-plugin-perl.lua",
+  "anchors": ["Makefile.PL", "cpanfile", "META.json"],
+  "include": ["**/t/*.t", "**/*_test.pl"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["prove"],
+  "priority": 115
+}

@@ -1,0 +1,9 @@
+{
+  "name": "busted",
+  "plugin": "teez-plugin-busted.lua",
+  "anchors": [".busted"],
+  "include": ["**/*_spec.lua", "**/spec/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["busted"],
+  "priority": 115
+}

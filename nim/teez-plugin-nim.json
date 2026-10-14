@@ -1,0 +1,8 @@
+{
+  "name": "nim",
+  "plugin": "teez-plugin-nim.lua",
+  "requires": ["nimble"],
+  "glob_anchors": ["*.nimble"],
+  "include": ["**/tests/**/*.nim", "**/*_test.nim"],
+  "priority": 115
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ocaml",
+  "plugin": "teez-plugin-ocaml.lua",
+  "anchors": ["dune-project"],
+  "include": ["**/*_test.ml", "**/*_test.mli", "**/test/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["dune"],
+  "priority": 115
+}

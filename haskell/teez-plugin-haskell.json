@@ -1,0 +1,14 @@
+{
+  "name": "haskell",
+  "plugin": "teez-plugin-haskell.lua",
+  "glob_anchors": ["*.cabal", "package.yaml"],
+  "include": [
+    "**/test/**/*.hs",
+    "**/tests/**/*.hs",
+    "**/*Test.hs",
+    "**/*Spec.hs"
+  ],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["cabal"],
+  "priority": 115
+}

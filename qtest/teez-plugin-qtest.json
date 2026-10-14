@@ -1,0 +1,10 @@
+{
+  "name": "qtest",
+  "plugin": "teez-plugin-qtest.lua",
+  "anchors": ["CMakeLists.txt"],
+  "glob_anchors": ["*.pro"],
+  "include": ["**/tests/**", "**/*_test.cpp", "**/*Test.qml"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["ctest"],
+  "priority": 115
+}

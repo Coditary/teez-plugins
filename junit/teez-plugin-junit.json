@@ -1,0 +1,8 @@
+{
+  "name": "junit",
+  "plugin": "teez-plugin-junit.lua",
+  "anchors": ["pom.xml", "build.gradle", "build.gradle.kts"],
+  "include": ["**/src/test/java/**/*.java", "**/src/test/kotlin/**/*.kt"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

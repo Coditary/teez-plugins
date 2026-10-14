@@ -1,0 +1,10 @@
+{
+  "name": "autohotkey",
+  "plugin": "teez-plugin-autohotkey.lua",
+  "anchors": [],
+  "glob_anchors": ["*.ahk"],
+  "include": ["**/tests/**/*.ahk", "**/*_test.ahk"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["AutoHotkey.exe"],
+  "priority": 115
+}

@@ -1,0 +1,36 @@
+{
+  "name": "pfunit",
+  "plugin": "teez-plugin-pfunit.lua",
+  "anchors": [
+    "CMakeLists.txt"
+  ],
+  "glob_anchors": [
+    "**/*pfunit*",
+    "**/*_pfunit_test.F90",
+    "**/*_pfunit_test.f90",
+    "**/*PfunitTest.F90",
+    "**/*PfunitTest.f90",
+    "**/pfunit.rc",
+    "**/PFUNITConfig.cmake"
+  ],
+  "include": [
+    "**/*_pfunit_test.F90",
+    "**/*_pfunit_test.f90",
+    "**/*PfunitTest.F90",
+    "**/*PfunitTest.f90",
+    "**/test_*.F90",
+    "**/test_*.f90",
+    "**/Test*.F90",
+    "**/Test*.f90"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 115,
+  "requires": [
+    "ctest"
+  ]
+}

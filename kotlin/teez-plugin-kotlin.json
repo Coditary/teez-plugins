@@ -1,0 +1,9 @@
+{
+  "name": "kotlin",
+  "plugin": "teez-plugin-kotlin.lua",
+  "anchors": ["build.gradle.kts", "build.gradle"],
+  "glob_anchors": ["settings.gradle.kts", "settings.gradle"],
+  "include": ["**/*Test.kt", "**/*Tests.kt", "**/test/**/*.kt"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

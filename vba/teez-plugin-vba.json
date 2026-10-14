@@ -1,0 +1,8 @@
+{
+  "name": "vba",
+  "plugin": "teez-plugin-vba.lua",
+  "anchors": [".rubberduck", "Rubberduck.config"],
+  "include": ["**/*Tests.bas", "**/Tests/**"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

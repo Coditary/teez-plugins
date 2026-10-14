@@ -1,0 +1,8 @@
+{
+  "name": "labview",
+  "plugin": "teez-plugin-labview.lua",
+  "glob_anchors": ["*.lvproj"],
+  "include": ["**/Tests/**", "**/*Test*.vi"],
+  "exclude": ["**/_support/**", "**/utilities/**", "**/support/**"],
+  "priority": 115
+}

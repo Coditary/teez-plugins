@@ -1,0 +1,9 @@
+{
+  "name": "r",
+  "plugin": "teez-plugin-r.lua",
+  "anchors": ["DESCRIPTION"],
+  "include": ["**/testthat/**", "**/tests/testthat/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["Rscript"],
+  "priority": 115
+}

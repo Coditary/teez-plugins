@@ -1,0 +1,9 @@
+{
+  "name": "sasunit",
+  "plugin": "teez-plugin-sasunit.lua",
+  "anchors": ["setup.sas", "sasunit.setup.sas"],
+  "include": ["**/tests/**/*.sas", "**/ex_*/*.sas"],
+  "exclude": ["**/setup.sas", "**/sasunit.setup.sas", "**/run_tests.sas"],
+  "requires": ["sas"],
+  "priority": 115
+}

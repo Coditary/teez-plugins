@@ -1,0 +1,9 @@
+{
+  "name": "dotnet",
+  "plugin": "teez-plugin-dotnet.lua",
+  "requires": ["dotnet"],
+  "glob_anchors": ["*.sln", "*.csproj"],
+  "include": ["**/*Tests.cs", "**/*.Tests/**"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

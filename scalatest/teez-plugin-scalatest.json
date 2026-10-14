@@ -1,0 +1,9 @@
+{
+  "name": "scalatest",
+  "plugin": "teez-plugin-scalatest.lua",
+  "anchors": ["build.sbt"],
+  "include": ["**/src/test/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["sbt"],
+  "priority": 115
+}

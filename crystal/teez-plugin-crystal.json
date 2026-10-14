@@ -1,0 +1,8 @@
+{
+  "name": "crystal",
+  "plugin": "teez-plugin-crystal.lua",
+  "anchors": ["shard.yml"],
+  "requires": ["crystal"],
+  "include": ["**/spec/**/*_spec.cr", "**/spec/**"],
+  "priority": 115
+}

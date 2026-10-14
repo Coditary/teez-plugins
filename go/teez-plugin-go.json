@@ -1,0 +1,14 @@
+{
+  "name": "go",
+  "plugin": "teez-plugin-go.lua",
+  "anchors": [
+    "go.mod"
+  ],
+  "include": [
+    "**/*_test.go"
+  ],
+  "requires": [
+    "go"
+  ],
+  "priority": 115
+}

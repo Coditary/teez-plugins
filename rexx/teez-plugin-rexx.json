@@ -1,0 +1,9 @@
+{
+  "name": "rexx",
+  "plugin": "teez-plugin-rexx.lua",
+  "glob_anchors": ["*.rexx", "*.rex"],
+  "include": ["**/tests/**", "**/*_test.rexx"],
+  "exclude": ["**/tests/run.rexx", "**/run.rexx"],
+  "requires": ["rexx"],
+  "priority": 115
+}

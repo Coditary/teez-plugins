@@ -1,0 +1,15 @@
+{
+  "name": "dlang",
+  "plugin": "teez-plugin-dlang.lua",
+  "anchors": [
+    "dub.json",
+    "dub.sdl"
+  ],
+  "include": [
+    "**/*.d"
+  ],
+  "requires": [
+    "dub"
+  ],
+  "priority": 115
+}

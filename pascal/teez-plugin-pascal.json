@@ -1,0 +1,10 @@
+{
+  "name": "pascal",
+  "plugin": "teez-plugin-pascal.lua",
+  "anchors": [],
+  "glob_anchors": ["*.lpi", "*.dpr", "*.lpr"],
+  "include": ["**/*Test*.pas", "**/tests/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["fpc"],
+  "priority": 115
+}

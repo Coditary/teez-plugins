@@ -1,0 +1,8 @@
+{
+  "name": "spock",
+  "plugin": "teez-plugin-spock.lua",
+  "anchors": ["build.gradle", "build.gradle.kts"],
+  "include": ["**/src/test/groovy/**", "**/*Spec.groovy"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

@@ -1,0 +1,30 @@
+{
+  "name": "fruit",
+  "plugin": "teez-plugin-fruit.lua",
+  "anchors": [
+    "CMakeLists.txt",
+    "fruit.f90"
+  ],
+  "glob_anchors": [
+    "**/fruit/**",
+    "**/*_fruit_test.f90"
+  ],
+  "include": [
+    "**/*_fruit_test.f90",
+    "**/fruit_tests/**"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
+    "**/test_*.py",
+    "**/*_test.py",
+    "**/*_pfunit_test.F90",
+    "**/*_pfunit_test.f90",
+    "**/*PfunitTest.F90",
+    "**/*PfunitTest.f90"
+  ],
+  "priority": 114,
+  "requires": [
+    "gfortran"
+  ]
+}

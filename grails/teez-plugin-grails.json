@@ -1,0 +1,13 @@
+{
+  "name": "grails",
+  "plugin": "teez-plugin-grails.lua",
+  "anchors": ["grails-app", "build.gradle", "gradle.properties"],
+  "glob_anchors": ["**/grails-app/**"],
+  "include": [
+    "**/src/test/groovy/**",
+    "**/src/integration-test/groovy/**",
+    "**/*Spec.groovy"
+  ],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

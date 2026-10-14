@@ -1,0 +1,10 @@
+{
+  "name": "erlang",
+  "plugin": "teez-plugin-erlang.lua",
+  "anchors": ["rebar.config"],
+  "glob_anchors": ["*.app.src"],
+  "include": ["**/test/**/*.erl", "**/*_SUITE.erl"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["rebar3"],
+  "priority": 115
+}

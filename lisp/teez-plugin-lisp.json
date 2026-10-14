@@ -1,0 +1,9 @@
+{
+  "name": "lisp",
+  "plugin": "teez-plugin-lisp.lua",
+  "glob_anchors": ["*.asd"],
+  "include": ["**/tests/**", "**/*-tests.lisp"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["sbcl"],
+  "priority": 115
+}

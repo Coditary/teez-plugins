@@ -1,0 +1,8 @@
+{
+  "name": "scheme",
+  "plugin": "teez-plugin-scheme.lua",
+  "glob_anchors": ["*.sls", "*.scm"],
+  "include": ["**/test/**", "**/*-test.scm", "**/*_test.scm"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

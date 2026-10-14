@@ -1,0 +1,8 @@
+{
+  "name": "processing",
+  "plugin": "teez-plugin-processing.lua",
+  "requires": ["processing-java"],
+  "glob_anchors": ["*.pde", "sketch.properties"],
+  "include": ["**/test/**", "**/*Test*.pde"],
+  "priority": 115
+}

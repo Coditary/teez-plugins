@@ -1,0 +1,21 @@
+{
+  "name": "clojure",
+  "plugin": "teez-plugin-clojure.lua",
+  "anchors": [
+    "deps.edn",
+    "project.clj"
+  ],
+  "include": [
+    "**/test/**",
+    "**/*_test.clj",
+    "**/*_test.cljc"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 115,
+  "requires": ["clojure"]
+}

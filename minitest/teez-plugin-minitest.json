@@ -1,0 +1,9 @@
+{
+  "name": "minitest",
+  "plugin": "teez-plugin-minitest.lua",
+  "anchors": ["Gemfile", "Rakefile"],
+  "include": ["**/test/**/*_test.rb", "**/test/**/test_*.rb"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["ruby"],
+  "priority": 115
+}

@@ -1,0 +1,8 @@
+{
+  "name": "stan",
+  "plugin": "teez-plugin-stan.lua",
+  "requires": ["stanc"],
+  "glob_anchors": ["*.stan"],
+  "include": ["**/tests/**", "**/*_test.stan"],
+  "priority": 115
+}

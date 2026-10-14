@@ -1,0 +1,8 @@
+{
+  "name": "wolfram",
+  "plugin": "teez-plugin-wolfram.lua",
+  "anchors": ["PacletInfo.wl", "Kernel/init.m"],
+  "include": ["**/Tests/**", "**/*Test*.wl"],
+  "exclude": ["**/*.teez.lua"],
+  "priority": 115
+}

@@ -1,0 +1,8 @@
+{
+  "name": "forge",
+  "plugin": "teez-plugin-forge.lua",
+  "anchors": ["foundry.toml"],
+  "include": ["**/test/**/*.sol", "**/src/**"],
+  "requires": ["forge"],
+  "priority": 115
+}

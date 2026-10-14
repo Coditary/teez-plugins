@@ -1,0 +1,9 @@
+{
+  "name": "bats",
+  "plugin": "teez-plugin-bats.lua",
+  "glob_anchors": [".batsrc", "bats.config"],
+  "include": ["**/*.bats", "**/test/**/*.bats"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["bats"],
+  "priority": 115
+}

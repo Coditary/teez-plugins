@@ -1,0 +1,10 @@
+{
+  "name": "coffeescript",
+  "plugin": "teez-plugin-coffeescript.lua",
+  "anchors": ["package.json"],
+  "glob_anchors": ["**/*.coffee"],
+  "include": ["**/*_spec.coffee", "**/spec/**"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["npx"],
+  "priority": 115
+}

@@ -1,0 +1,9 @@
+{
+  "name": "godot4",
+  "plugin": "teez-plugin-godot4.lua",
+  "anchors": ["project.godot"],
+  "include": ["**/test/**", "**/*_test.gd"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["godot"],
+  "priority": 116
+}

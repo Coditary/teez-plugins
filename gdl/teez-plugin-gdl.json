@@ -1,0 +1,7 @@
+{
+  "name": "gdl",
+  "plugin": "teez-plugin-gdl.lua",
+  "glob_anchors": ["*.pro", "*.dlm"],
+  "include": ["**/tests/**", "**/*_test.pro"],
+  "priority": 115
+}

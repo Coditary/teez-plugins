@@ -1,0 +1,8 @@
+{
+  "name": "smalltalk",
+  "plugin": "teez-plugin-smalltalk.lua",
+  "anchors": ["package.st"],
+  "glob_anchors": ["*.stproj"],
+  "include": ["**/*Test*.st", "**/Tests/**"],
+  "priority": 115
+}

@@ -1,0 +1,8 @@
+{
+  "name": "openscad",
+  "plugin": "teez-plugin-openscad.lua",
+  "requires": ["openscad"],
+  "glob_anchors": ["*.scad"],
+  "include": ["**/tests/**", "**/*_test.scad"],
+  "priority": 115
+}

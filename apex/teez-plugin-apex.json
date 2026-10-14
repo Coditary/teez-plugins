@@ -1,0 +1,8 @@
+{
+  "name": "apex",
+  "plugin": "teez-plugin-apex.lua",
+  "requires": ["sf"],
+  "anchors": ["sfdx-project.json", "sf-project.json"],
+  "include": ["**/classes/*Test.cls", "**/tests/**"],
+  "priority": 115
+}

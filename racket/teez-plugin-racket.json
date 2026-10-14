@@ -1,0 +1,8 @@
+{
+  "name": "racket",
+  "plugin": "teez-plugin-racket.lua",
+  "anchors": ["info.rkt"],
+  "include": ["**/test/**", "**/*-test.rkt", "**/*_test.rkt"],
+  "requires": ["raco"],
+  "priority": 115
+}

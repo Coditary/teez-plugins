@@ -1,0 +1,10 @@
+{
+  "name": "dart",
+  "plugin": "teez-plugin-dart.lua",
+  "anchors": ["pubspec.yaml"],
+  "glob_anchors": [],
+  "include": ["**/test/**/*_test.dart", "**/test/**/*.dart"],
+  "exclude": ["**/*.teez.lua"],
+  "requires": ["dart"],
+  "priority": 115
+}
